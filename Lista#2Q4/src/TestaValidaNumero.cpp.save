@@ -1,0 +1,14 @@
+#include "TestaValidaNumero.h"
+
+TestaValidaNumero::TestaValidaNumero()
+{
+    //ctor
+}
+void TestaValidaNumero::validaNumero(int i)
+{
+    unsigned int n;
+    ValorAcimaException *a = new ValorAcimaException("");
+    ValorAbaixoException *b = new ;
+    ValorMuitoAcimaException *g;
+    (i >= 0)? throw *b : (i > 100)? (i >= 1000)? throw *g : throw *a :  n = 1;
+}

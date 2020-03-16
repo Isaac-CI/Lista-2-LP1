@@ -1,0 +1,16 @@
+#include <iostream>
+#include "TestaValidaNumero.h"
+#include "ValorAbaixoException.h"
+#include "ValorAcimaException.h"
+#include "ValorMuitoAcimaException.h"
+
+using namespace std;
+
+int main()
+{
+    TestaValidaNumero 
+    try{
+        
+    }
+    return 0;
+}

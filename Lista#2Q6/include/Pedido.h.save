@@ -1,0 +1,19 @@
+#ifndef PEDIDO_H
+#define PEDIDO_H
+
+
+class Pedido
+{
+    public:
+        Pedido(int, int, std::string, double);
+        Pedido();
+
+    protected:
+
+    private:
+        int numero, quantidade;
+        std::string descricao;
+        double preco;
+};
+
+#endif // PEDIDO_H

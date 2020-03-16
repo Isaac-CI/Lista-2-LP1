@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1584293983 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\main.cpp
+	<iostream>
+	"TestaValidaNumero.h"
+	"ValorAbaixoException.h"
+	"ValorAcimaException.h"
+	"ValorMuitoAcimaException.h"
+
+1584292902 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\src\valorabaixoexception.cpp
+	"ValorAbaixoException.h"
+
+1584292902 c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\include\valorabaixoexception.h
+	<exception>
+
+1584292902 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\src\valoracimaexception.cpp
+	"ValorAcimaException.h"
+
+1584292902 c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\include\valoracimaexception.h
+	<exception>
+
+1584292664 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\src\valormuitoacimaexception.cpp
+	"ValorMuitoAcimaException.h"
+
+1584292902 c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\include\valormuitoacimaexception.h
+	<exception>
+
+1584294063 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\src\testavalidanumero.cpp
+	<iostream>
+	"TestaValidaNumero.h"
+
+1584292710 c:\users\isaac\desktop\roteiro#3llp1\lista#2q4\include\testavalidanumero.h
+	"ValorAbaixoException.h"
+	"ValorAcimaException.h"
+	"ValorMuitoAcimaException.h"
+

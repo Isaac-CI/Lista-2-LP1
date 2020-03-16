@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1576375087 source:c:\users\isaac\desktop\roteiro #2 llp1\questao_1\src\restaurantecaseiro.cpp
+	"RestauranteCaseiro.h"
+
+1576375086 c:\users\isaac\desktop\roteiro #2 llp1\questao_1\include\restaurantecaseiro.h
+
+1514140574 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q6\main.cpp
+	<iostream>
+
+1584284922 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q6\src\pedido.cpp
+	<string>
+	"../include/Pedido.h"
+
+1584285370 c:\users\isaac\desktop\lista#2-lp1\lista#2q6\include\pedido.h
+	<string>
+
+1584284922 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q6\src\restaurantecaseiro.cpp
+	<vector>
+	"../include/Pedido.h"
+	"../include/MesaDeRestaurante.h"
+	"../include/RestauranteCaseiro.h"
+
+1584284955 c:\users\isaac\desktop\lista#2-lp1\lista#2q6\include\mesaderestaurante.h
+	<vector>
+
+1584284966 c:\users\isaac\desktop\lista#2-lp1\lista#2q6\include\restaurantecaseiro.h
+	<vector>
+
+1584286178 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q6\src\mesaderestaurante.cpp
+	<vector>
+	"../include/Pedido.h"
+	"../include/MesaDeRestaurante.h"
+
