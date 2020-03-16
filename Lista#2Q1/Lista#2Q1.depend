@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1584143917 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q2\main.cpp
+	<iostream>
+	<string>
+	"IConta.h"
+	"Conta.h"
+	"ContaEspecial.h"
+
+1584143685 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q2\src\conta.cpp
+	"Conta.h"
+
+1584145858 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q2\include\conta.h
+	"IConta.h"
+	<string>
+
+1584138386 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q2\include\iconta.h
+
+1584137062 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q2\src\iconta.cpp
+	"IConta.h"
+
+1584143685 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q2\src\contaespecial.cpp
+	<string.h>
+	"Conta.h"
+	"ContaEspecial.h"
+
+1584142735 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q2\include\contaespecial.h
+	<string>
+	"Conta.h"
+

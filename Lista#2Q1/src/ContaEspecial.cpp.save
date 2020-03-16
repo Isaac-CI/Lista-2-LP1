@@ -1,0 +1,15 @@
+#include <string.h>
+#include "Conta.h"
+#include "ContaEspecial.h"
+
+ContaEspecial::ContaEspecial(std::string s, int i, double d)
+{
+    nomeCliente = s;
+    numeroConta = i;
+    salarioMensal = d;
+    saldo = 0;
+}
+void ContaEspecial::definirLimite()
+{
+    limite = 3 * salarioMensal;
+}

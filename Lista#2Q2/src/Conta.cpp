@@ -1,0 +1,73 @@
+#include "Conta.h"
+
+Conta::Conta(std::string s, int i, double d)
+{
+    nomeCliente = s;
+    numeroConta = i;
+    salarioMensal = d;
+    saldo = 0;
+}
+
+void Conta::definirLimite()
+{
+    limite = 2 * salarioMensal;
+}
+
+void Conta::depositar(double d)
+{
+    saldo += (d > 0) ? d : -d;
+}
+
+double Conta::getLimite()
+{
+    return limite;
+}
+
+std::string Conta::getNomeCliente()
+{
+    return nomeCliente;
+}
+int Conta::getNumeroConta()
+{
+    return numeroConta;
+}
+double Conta::getSalarioMensal()
+{
+    return salarioMensal;
+}
+double Conta::getSaldo()
+{
+    return saldo;
+}
+void Conta::sacar(double d)
+{
+    SaldoNaoDisponivelException *s = new SaldoNaoDisponivelException("Saldo insuficiente.");
+    d = (d > 0) ? d : -d;
+    if(d > saldo)
+    {
+        throw *s;
+    }else
+    {
+        saldo -= d;
+    }
+}
+void Conta::setLimite(double d)
+{
+    limite = d;
+}
+void Conta::setNomeCliente(std::string s)
+{
+    nomeCliente = s;
+}
+void Conta::setNumeroConta(int i)
+{
+    numeroConta = i;
+}
+void Conta::setSalarioMensal(double d)
+{
+    salarioMensal = d;
+}
+void Conta::setSaldo(double d)
+{
+    saldo = d;
+}

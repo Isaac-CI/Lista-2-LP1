@@ -1,0 +1,7 @@
+#include "FuncionarioNaoExisteException.h"
+#include <iostream>
+
+FuncionarioNaoExisteException::FuncionarioNaoExisteException()
+{
+    std::cout << "Funcionario nao existe." << std::endl;
+}

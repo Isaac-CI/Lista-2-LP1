@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1584296409 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\src\conta.cpp
+	"Conta.h"
+
+1584296409 c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\include\conta.h
+	"IConta.h"
+	"SaldoNaoDisponivelException.h"
+	<string>
+
+1584295875 c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\include\iconta.h
+
+1584295875 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\src\contaespecial.cpp
+	<string.h>
+	"Conta.h"
+	"ContaEspecial.h"
+
+1584295875 c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\include\contaespecial.h
+	<string>
+	"Conta.h"
+
+1584295875 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\src\iconta.cpp
+	"IConta.h"
+
+1584296768 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\main.cpp
+	<iostream>
+	<string>
+	"IConta.h"
+	"Conta.h"
+	"ContaEspecial.h"
+
+1584296409 c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\include\saldonaodisponivelexception.h
+	<exception>
+
+1584296409 source:c:\users\isaac\desktop\roteiro#3llp1\lista#2q2\src\saldonaodisponivelexception.cpp
+	"SaldoNaoDisponivelException.h"
+

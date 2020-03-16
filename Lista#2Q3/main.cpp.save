@@ -1,0 +1,64 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include "Funcionario.h"
+#include "Assalariado.h"
+#include "Horista.h"
+#include "Comissionado.h"
+#include "SistemaGerenciaFolha.h"
+#include "FuncionarioNaoExisteException.h"
+#include "OrcamentoEstouradoException.h"
+
+using namespace std;
+
+int main()
+{
+    unsigned int n;
+    vector<Funcionario*> vetor;
+    Assalariado *secretario = new Assalariado("Jose", 87654321, 3000);
+    Horista *programador = new Horista("Joao", 98765432, 100, 60);
+    Comissionado *vendedor = new Comissionado("Antonio", 23456789, 100, 55);
+    SistemaGerenciaFolha *contraCheque = new SistemaGerenciaFolha(3450975.89);
+    vetor.push_back(secretario);
+    vetor.push_back(programador);
+    vetor.push_back(vendedor);
+
+    contraCheque->setFuncionarios(vetor);
+
+    for(n=0; n<vetor.size(); n++)
+    {
+        cout << "O salario pago ao empregado: " << contraCheque->getFuncionarios()[n]->getNome() << " De matricula: " << contraCheque->getFuncionarios()[n]->getMatricula() << " eh: R$" << contraCheque->getFuncionarios()[n]->calculaSalario() << endl;
+    }
+
+    cout << "O salario de Joao eh: R$" << contraCheque->consultaSalarioFuncionario("Joao", 98765432) << endl;
+
+    cout << "Caso alguma informacao seja inserida incorretamente, ou o funcionario nao exista:\n";
+    double d;
+    try 
+    {
+        d = contraCheque->consultaSalarioFuncionario("nao existe", 12703774);
+    }catch(FuncionarioNaoExisteException f)
+    {
+        f.FuncionarioNaoExisteException();
+        cout << "Verifique se as informacoes inseridas estavam corretas." << endl;
+    }
+    cout << "O valor total da folha de pagamento eh: " << contraCheque->calculaValorTotalFolha() << endl;
+
+    Assalariado *CEO = new Assalariado("Chefe", 80058005, 3450975.89);
+
+    vetor.push_back(CEO);
+    SistemaGerenciaFolha *novo = new SistemaGerenciaFolha(3450975.89);
+    novo->setFuncionarios(vetor);
+
+    cout << "caso o valor a ser pago superar o oracamento:\n";
+    double doub;
+    try{
+        doub = novo->calculaValorTotalFolha();
+        cout << doub << endl;
+    }catch(OrcamentoEstouradoException o){
+        o.OrcamentoEstouradoException();
+        cout << "Verifique possiveis erros no banco de dados." << endl
+    }
+    
+    return 0;
+}

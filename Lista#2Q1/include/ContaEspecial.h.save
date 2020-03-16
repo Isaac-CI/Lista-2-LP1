@@ -1,0 +1,16 @@
+#ifndef CONTAESPECIAL_H
+#define CONTAESPECIAL_H
+
+
+class ContaEspecial
+{
+    public:
+        ContaEspecial();
+        void definirLimite()override;
+
+    protected:
+
+    private:
+};
+
+#endif // CONTAESPECIAL_H

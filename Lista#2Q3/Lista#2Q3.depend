@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1584228247 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Funcionario.h"
+	"Assalariado.h"
+	"Horista.h"
+	"Comissionado.h"
+	"SistemaGerenciaFolha.h"
+	"FuncionarioNaoExisteException.h"
+	"OrcamentoEstouradoException.h"
+
+1584207366 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\src\funcionario.cpp
+	"Funcionario.h"
+
+1584207385 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\include\funcionario.h
+	<string>
+
+1584207713 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\src\assalariado.cpp
+	"Assalariado.h"
+
+1584207713 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\include\assalariado.h
+	"Funcionario.h"
+
+1584208573 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\src\horista.cpp
+	"Horista.h"
+
+1584208603 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\include\horista.h
+	"Funcionario.h"
+
+1584209636 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\src\comissionado.cpp
+	"Comissionado.h"
+
+1584209624 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\include\comissionado.h
+	"Funcionario.h"
+
+1584298743 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\src\funcionarionaoexisteexception.cpp
+	"FuncionarioNaoExisteException.h"
+	<iostream>
+
+1584298812 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\include\funcionarionaoexisteexception.h
+	<exception>
+
+1584298743 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\src\sistemagerenciafolha.cpp
+	"SistemaGerenciaFolha.h"
+
+1584298743 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\include\sistemagerenciafolha.h
+	"Funcionario.h"
+	<exception>
+	<vector>
+	<string>
+	"OrcamentoEstouradoException.h"
+	"FuncionarioNaoExisteException.h"
+
+1584298812 c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\include\orcamentoestouradoexception.h
+	<exception>
+
+1584298823 source:c:\users\isaac\desktop\roteiro#3llp1\roteiro#3q4\src\orcamentoestouradoexception.cpp
+	"OrcamentoEstouradoException.h"
+	<iostream>
+
+1584298880 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q3\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Funcionario.h"
+	"Assalariado.h"
+	"Horista.h"
+	"Comissionado.h"
+	"SistemaGerenciaFolha.h"
+	"FuncionarioNaoExisteException.h"
+	"OrcamentoEstouradoException.h"
+
+1584207385 c:\users\isaac\desktop\lista#2-lp1\lista#2q3\include\funcionario.h
+	<string>
+
+1584207713 c:\users\isaac\desktop\lista#2-lp1\lista#2q3\include\assalariado.h
+	"Funcionario.h"
+
+1584208603 c:\users\isaac\desktop\lista#2-lp1\lista#2q3\include\horista.h
+	"Funcionario.h"
+
+1584209624 c:\users\isaac\desktop\lista#2-lp1\lista#2q3\include\comissionado.h
+	"Funcionario.h"
+
+1584298743 c:\users\isaac\desktop\lista#2-lp1\lista#2q3\include\sistemagerenciafolha.h
+	"Funcionario.h"
+	<exception>
+	<vector>
+	<string>
+	"OrcamentoEstouradoException.h"
+	"FuncionarioNaoExisteException.h"
+
+1584298812 c:\users\isaac\desktop\lista#2-lp1\lista#2q3\include\orcamentoestouradoexception.h
+	<exception>
+
+1584298812 c:\users\isaac\desktop\lista#2-lp1\lista#2q3\include\funcionarionaoexisteexception.h
+	<exception>
+
+1584207713 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q3\src\assalariado.cpp
+	"Assalariado.h"
+
+1584207366 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q3\src\funcionario.cpp
+	"Funcionario.h"
+
+1584298743 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q3\src\funcionarionaoexisteexception.cpp
+	"FuncionarioNaoExisteException.h"
+	<iostream>
+
+1584208573 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q3\src\horista.cpp
+	"Horista.h"
+
+1584298823 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q3\src\orcamentoestouradoexception.cpp
+	"OrcamentoEstouradoException.h"
+	<iostream>
+
+1584298743 source:c:\users\isaac\desktop\lista#2-lp1\lista#2q3\src\sistemagerenciafolha.cpp
+	"SistemaGerenciaFolha.h"
+
